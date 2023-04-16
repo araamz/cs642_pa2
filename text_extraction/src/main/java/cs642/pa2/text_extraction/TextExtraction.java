@@ -1,4 +1,4 @@
-package cs642_pa1.text_extraction;
+package cs642.pa2.text_extraction;
 
 import software.amazon.awssdk.services.rekognition.RekognitionClient;
 import software.amazon.awssdk.services.rekognition.model.*;
@@ -15,14 +15,13 @@ public class TextExtraction {
     private final S3Client s3Client;
     private final RekognitionClient rekognitionClient;
     private final SqsClient sqsClient;
-
     private final String bucketName;
     private final String queueURL;
     private final String outputFile;
 
     public TextExtraction() {
-        bucketName = "cs442unr";
-        queueURL = "https://sqs.us-west-2.amazonaws.com/608375520976/index_pipeline.fifo";
+        bucketName = "pa2-debug";
+        queueURL = "https://sqs.us-west-2.amazonaws.com/608375520976/people_indexes.fifo";
         outputFile = "output.txt";
 
         s3Client = DependencyFactory.s3Client();
@@ -50,7 +49,6 @@ public class TextExtraction {
         sqsClient.close();
 
     }
-
     public static void main(String[] args) {
         new TextExtraction();
     }

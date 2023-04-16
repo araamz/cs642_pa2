@@ -120,8 +120,8 @@ public class CarRecognition {
 
     private void enqueue_image(String image_name) {
 
-        String deduplication_id = "index_group:" + image_name;
-        String message_group_id = "index_group";
+        String deduplication_id = "car_group:" + image_name;
+        String message_group_id = "car_group";
         SendMessageRequest image_request = SendMessageRequest.builder().queueUrl(queueURL).messageBody(image_name).messageDeduplicationId(deduplication_id).messageGroupId(message_group_id).build();
 
         sqsClient.sendMessage(image_request);
@@ -130,8 +130,8 @@ public class CarRecognition {
 
     private void enqueue_stop() {
 
-        String deduplication_id = "index_group:" + "-1";
-        String message_group_id = "index_group";
+        String deduplication_id = "car_group:" + "-1";
+        String message_group_id = "car_group";
         SendMessageRequest stop_request = SendMessageRequest.builder().queueUrl(queueURL).messageBody("-1").messageDeduplicationId(deduplication_id).messageGroupId(message_group_id).build();
 
         sqsClient.sendMessage(stop_request);
