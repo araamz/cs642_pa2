@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d96957a-03dc-4d9d-b6b0-eb81d1bb2938" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/com.amazonaws.aws-lambda-java-core-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/com.amazonaws.aws-lambda-java-events-3.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/joda-time.joda-time-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/packaged-temp-template.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/template.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person_recognition.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../car_recognition/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../car_recognition/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs642/pa2/person_recognition/DependencyFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs642/pa2/person_recognition/PersonRecognition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/template.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorldFunction/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/helloworld/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/helloworld/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../text_extraction/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../text_extraction/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,21 +27,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/araamzaremehrjardi/Documents/cs642_pa2/person_recognition",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="AWS Lambda.[Local] HelloWorldFunction">
     <configuration name="[Local] HelloWorldFunction" type="aws.lambda" factoryName="Local" nameIsGenerated="true">
       <option name="credentialProviderId" value="profile:default" />
@@ -137,6 +123,7 @@
       <workItem from="1681695273645" duration="1557000" />
       <workItem from="1681697305811" duration="161000" />
       <workItem from="1681697470831" duration="2109000" />
+      <workItem from="1681712536279" duration="936000" />
     </task>
     <servers />
   </component>
