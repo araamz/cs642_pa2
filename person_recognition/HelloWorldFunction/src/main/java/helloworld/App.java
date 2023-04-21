@@ -35,6 +35,7 @@ public class App implements RequestHandler<SQSEvent, Void> {
 
             if (image.equals("-1")) {
                 System.out.println("Stop Detected - shutting down now");
+                enqueue_stop();
                 break;
             }
 
@@ -45,7 +46,6 @@ public class App implements RequestHandler<SQSEvent, Void> {
 
         }
 
-        enqueue_stop();
         this.rekognitionClient.close();
         this.sqsClient.close();
 

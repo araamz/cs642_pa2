@@ -93,7 +93,7 @@ public class TextExtraction {
     }
 
     private String dequeue_message() {
-        ReceiveMessageRequest message_request = ReceiveMessageRequest.builder().queueUrl(queueURL).waitTimeSeconds(10).build();
+        ReceiveMessageRequest message_request = ReceiveMessageRequest.builder().queueUrl(queueURL).waitTimeSeconds(20).build();
 
         Message message_object = sqsClient.receiveMessage(message_request).messages().get(0);
         String message = message_object.body();

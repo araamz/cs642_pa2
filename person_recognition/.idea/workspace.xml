@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d96957a-03dc-4d9d-b6b0-eb81d1bb2938" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../car_recognition/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../car_recognition/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../car_recognition/src/main/java/cs642/pa2/car_recognition/CarRecognition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../car_recognition/src/main/java/cs642/pa2/car_recognition/CarRecognition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../car_recognition/src/main/java/cs642/pa2/car_recognition/DependencyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../car_recognition/src/main/java/cs642/pa2/car_recognition/DependencyFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/helloworld/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/com.amazonaws.aws-lambda-java-core-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/com.amazonaws.aws-lambda-java-events-3.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/joda-time.joda-time-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/template.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorldFunction/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/helloworld/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/helloworld/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../text_extraction/src/main/java/cs642/pa2/text_extraction/DependencyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../text_extraction/src/main/java/cs642/pa2/text_extraction/DependencyFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../text_extraction/src/main/java/cs642/pa2/text_extraction/TextExtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../text_extraction/src/main/java/cs642/pa2/text_extraction/TextExtraction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,6 +129,7 @@
       <workItem from="1681717997558" duration="214000" />
       <workItem from="1681718370245" duration="7691000" />
       <workItem from="1681957806334" duration="12722000" />
+      <workItem from="1682105197866" duration="1498000" />
     </task>
     <servers />
   </component>
