@@ -116,7 +116,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>cs642_pa1.car_recognition.CarRecognition</mainClass>
+                            <mainClass>cs642.pa2.car_recognition.CarRecognition</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

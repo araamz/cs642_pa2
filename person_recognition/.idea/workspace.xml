@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d96957a-03dc-4d9d-b6b0-eb81d1bb2938" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../car_recognition/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../car_recognition/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/helloworld/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/helloworld/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../text_extraction/src/main/java/cs642/pa2/text_extraction/TextExtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../text_extraction/src/main/java/cs642/pa2/text_extraction/TextExtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_extraction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../text_extraction/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +129,8 @@
       <workItem from="1681717997558" duration="214000" />
       <workItem from="1681718370245" duration="7691000" />
       <workItem from="1681957806334" duration="12722000" />
-      <workItem from="1682105197866" duration="1498000" />
+      <workItem from="1682105197866" duration="1588000" />
+      <workItem from="1682107043416" duration="1211000" />
     </task>
     <servers />
   </component>
