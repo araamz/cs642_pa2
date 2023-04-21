@@ -19,14 +19,14 @@ public class DependencyFactory {
 
     public static S3Client s3Client() {
         return S3Client.builder()
-                .region(Region.US_WEST_2)
+                .region(Region.US_EAST_1)
                 .httpClientBuilder(UrlConnectionHttpClient.builder())
                 .build();
     }
 
     public static RekognitionClient rekognitionClient() {
         return RekognitionClient.builder()
-                .region(Region.US_WEST_2)
+                .region(Region.US_EAST_1)
                 .httpClientBuilder(UrlConnectionHttpClient.builder())
                 .build();
     }

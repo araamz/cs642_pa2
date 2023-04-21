@@ -20,7 +20,7 @@ public class TextExtraction {
     private final String outputFile;
 
     public TextExtraction() {
-        bucketName = "pa2-debug";
+        bucketName = "cs442-unr";
         queueURL = "https://sqs.us-west-2.amazonaws.com/608375520976/people_indexes.fifo";
         outputFile = "output.txt";
 
@@ -87,12 +87,13 @@ public class TextExtraction {
             concatenated_text = concatenated_text + " " + text.detectedText();
         }
 
+        System.out.println("Detected Text - " + image_name + ": " + concatenated_text);
         return concatenated_text;
 
     }
 
     private String dequeue_message() {
-        ReceiveMessageRequest message_request = ReceiveMessageRequest.builder().queueUrl(queueURL).waitTimeSeconds(20).build();
+        ReceiveMessageRequest message_request = ReceiveMessageRequest.builder().queueUrl(queueURL).waitTimeSeconds(10).build();
 
         Message message_object = sqsClient.receiveMessage(message_request).messages().get(0);
         String message = message_object.body();

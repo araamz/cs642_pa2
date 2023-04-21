@@ -24,7 +24,7 @@ public class CarRecognition {
     private final String queueURL;
 
     public CarRecognition() {
-        bucketName = "pa2-debug";
+        bucketName = "cs442-unr";
         queueURL = "https://sqs.us-west-2.amazonaws.com/608375520976/car_indexes.fifo";
 
         s3Client = DependencyFactory.s3Client();
@@ -43,8 +43,8 @@ public class CarRecognition {
 
         enqueue_stop();
 
-        s3Client.close();
         rekognitionClient.close();
+        s3Client.close();
         sqsClient.close();
 
     }
@@ -69,7 +69,6 @@ public class CarRecognition {
 
         } catch (RekognitionException e) {
             System.err.println(e);
-            System.exit(1);
         }
 
         return null;
@@ -91,6 +90,8 @@ public class CarRecognition {
                 System.out.println("Car Not Detected: " + image_name + " Confidence: " + label.confidence());
             }
         }
+
+        System.out.println("Car Not Detected: " + image_name);
 
         return false;
     }
@@ -120,8 +121,8 @@ public class CarRecognition {
 
     private void enqueue_image(String image_name) {
 
-        String deduplication_id = "car_group:" + image_name;
-        String message_group_id = "car_group";
+        String deduplication_id = "car_indexes:" + image_name;
+        String message_group_id = "car_indexes";
         SendMessageRequest image_request = SendMessageRequest.builder().queueUrl(queueURL).messageBody(image_name).messageDeduplicationId(deduplication_id).messageGroupId(message_group_id).build();
 
         sqsClient.sendMessage(image_request);
@@ -130,8 +131,8 @@ public class CarRecognition {
 
     private void enqueue_stop() {
 
-        String deduplication_id = "car_group:" + "-1";
-        String message_group_id = "car_group";
+        String deduplication_id = "car_indexes:" + "-1";
+        String message_group_id = "car_indexes";
         SendMessageRequest stop_request = SendMessageRequest.builder().queueUrl(queueURL).messageBody("-1").messageDeduplicationId(deduplication_id).messageGroupId(message_group_id).build();
 
         sqsClient.sendMessage(stop_request);
