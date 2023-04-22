@@ -7,9 +7,6 @@ import software.amazon.awssdk.services.rekognition.RekognitionClient;
 import software.amazon.awssdk.services.s3.S3Client;
 import software.amazon.awssdk.services.sqs.SqsClient;
 
-/**
- * The module containing all dependencies required by the {@link cs642_pa1.text_extraction.TextExtraction}.
- */
 public class DependencyFactory {
 
     private DependencyFactory() {}
